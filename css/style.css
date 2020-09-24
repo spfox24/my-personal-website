@@ -9,12 +9,19 @@ body {
     flex-direction: column;
 }
 
+.brand-logo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .outline {
     border: 3px dotted red;
 }
 
 header {
-    height: 200px;
+    height: 250px;
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 main {
